@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data and Models (Crucial for this project)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+vector_store/
+*.parquet
+*.csv
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
