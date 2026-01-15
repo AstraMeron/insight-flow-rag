@@ -11,3 +11,6 @@ sentence-transformers
 faiss-cpu
 chromadb
 tabulate
+python-dotenv
+gradio
+huggingface_hub

@@ -1,22 +1,18 @@
-# Python
+# Python junk
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb_checkpoints/
+
+# Virtual Environment
 venv/
-.env
+.venv/
+env/
 
-# Data and Models (Crucial for this project)
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Data & Databases (Local Only)
 vector_store/
-*.parquet
-*.csv
+.chroma/
 
-# IDEs
-.vscode/
-.idea/
-
-# OS
+# OS specific
 .DS_Store
+Thumbs.db
