@@ -4,3 +4,10 @@ matplotlib
 seaborn
 jupyter
 scikit-learn
+langchain
+langchain-community
+langchain-text-splitters
+sentence-transformers
+faiss-cpu
+chromadb
+tabulate
